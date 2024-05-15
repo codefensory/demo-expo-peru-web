@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { MainLayout } from '../layouts/MainLayout'
-import { days } from '../mock/data'
+//import { days } from '../mock/data'
 import { appTypes } from '../utils/constants'
 import program1 from "../assets/programs/program1.png"
 import program2 from "../assets/programs/program2.png"
@@ -25,6 +25,7 @@ const generateText = (text) => {
   return <div className="ml-2.5">{text}</div>
 }
 
+/*
 const DaysTable = ({ item, appType }) => {
   const isExpo = appType === appTypes.EXPO
 
@@ -59,6 +60,7 @@ const DaysTable = ({ item, appType }) => {
     </div >
   )
 }
+*/
 
 export const ProgramScreen = ({ appType }) => {
   return (
