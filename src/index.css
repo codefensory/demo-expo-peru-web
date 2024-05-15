@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #78b745;
+}
+
+* {
+  @apply text-[#04263b]
+}
+
+@layer utilities {
+  .striped > tr:nth-child(even) {
+    @apply bg-[#f5f5f5]
+  }
+}
