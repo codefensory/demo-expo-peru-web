@@ -1,4 +1,4 @@
-import clsx from 'clsx'
+//import clsx from 'clsx'
 import { MainLayout } from '../layouts/MainLayout'
 //import { days } from '../mock/data'
 import { appTypes } from '../utils/constants'
@@ -7,6 +7,7 @@ import program2 from "../assets/programs/program2.png"
 import program3 from "../assets/programs/program3.png"
 import pprogram1 from "../assets/programs/pprogram1.png"
 
+/*
 const generateText = (text) => {
   if (text.split('*').length > 1) {
     return <div className="font-bold text-current">{text.split('*')[1]}</div>
@@ -25,7 +26,6 @@ const generateText = (text) => {
   return <div className="ml-2.5">{text}</div>
 }
 
-/*
 const DaysTable = ({ item, appType }) => {
   const isExpo = appType === appTypes.EXPO
 
